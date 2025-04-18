@@ -1,4 +1,4 @@
-import { Main } from "../components/Main";
+import { HomeScreen } from "../screens/HomeScreen";
 export default function Index() {
-  return <Main />;
+  return <HomeScreen />;
 }
