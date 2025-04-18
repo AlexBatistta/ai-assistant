@@ -1,6 +1,6 @@
-import { Text } from "react-native";
+import { Text, View } from "react-native";
 import { useSafeAreaInsets } from "react-native-safe-area-context";
-import { View } from "react-native-web";
+import { MicrophoneIcon } from "./Icons";
 
 export function Main() {
   const insets = useSafeAreaInsets();
@@ -9,6 +9,7 @@ export function Main() {
       <Text className="text-blue-700 font-semibold">
         React Native with Native-Wind
       </Text>
+      <MicrophoneIcon />
     </View>
   );
 }

@@ -1,10 +1,10 @@
 {
   "expo": {
-    "scheme": "acme",
+    "scheme": "ai-assistant",
     "userInterfaceStyle": "automatic",
     "orientation": "default",
     "web": {
-      "output": "static"
+      "bundler": "metro"
     },
     "plugins": [
       [
@@ -15,6 +15,7 @@
       ]
     ],
     "name": "ai-assistant",
-    "slug": "ai-assistant"
+    "slug": "ai-assistant",
+    "newArchEnabled": true
   }
 }
