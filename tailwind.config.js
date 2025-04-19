@@ -8,7 +8,11 @@ module.exports = {
   ],
   presets: [require("nativewind/preset")],
   theme: {
-    extend: {},
+    extend: {
+      colors: {
+        blueRobot: "#3b74ce",
+      },
+    },
   },
   darkMode: "class",
   plugins: [],
