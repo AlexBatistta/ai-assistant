@@ -16,6 +16,17 @@
     ],
     "name": "ai-assistant",
     "slug": "ai-assistant",
-    "newArchEnabled": true
+    "newArchEnabled": true,
+    "extra": {
+      "router": {
+        "origin": "https://n"
+      },
+      "eas": {
+        "projectId": "e5bf0d7a-364c-4e19-9a71-2503ba1ef1b5"
+      }
+    },
+    "android": {
+      "package": "com.alexbatistta.aiassistant"
+    }
   }
 }
